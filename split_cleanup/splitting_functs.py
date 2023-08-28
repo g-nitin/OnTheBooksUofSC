@@ -161,7 +161,7 @@ def removeSessionHeaders(df):
     return df
 
 
-def getImgs(dir_OCR):
+def getImgs(dir_OCR, year):
     """
     This function searches the gives OCR directory path for the images 
     sub-folder. It then returns the path this sub-folder and the list of all 
@@ -401,6 +401,7 @@ def correct_words_batch(sentences, target_words, threshold):
 
         for word in words:
             if any(p in word for p in punct):
+                corrected_words.append(word)
                 continue
             
             corrected_word = word

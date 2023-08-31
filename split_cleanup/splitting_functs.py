@@ -493,3 +493,21 @@ def addPrefix(fileName: str, nameLen: int) -> str:
     prefix = "0" * (nameLen - len(fileName))
     
     return prefix + fileName
+
+
+def addJoints(sentence):
+    """
+    Change `law_type` column to accomodate Joint Resolutions.
+    
+    Parameters
+    ----------
+    sentence : str
+        The sentence that should be checked to determine if the 
+        sentence is initializing a Joint Resolution.
+
+    Returns
+    -------
+    str
+        Either "Joint Resolution" or "Act" based on `sentence`.
+    """
+    return 'Joint Resolution' if 'joint' in sentence.lower().split()[:3] and 'resolution' in sentence.lower().split()[:4] else 'Act'

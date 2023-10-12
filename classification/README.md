@@ -11,7 +11,9 @@ The target was a 3-class output of either a 0, 1, or 2 which represented not Jim
 
 Law scholars helped assemble training sets. Since the majority of laws are not of Jim Crow language, our training sets were imbalanced in favor of an output of 0. An example of the distribution of the target variables of an early training set is shown below.
 
-![Early Target Distribution](https://github.com/g-nitin/OnTheBooksUofSC/tree/main/images/oversampling_ex.png)
+<!-- ![Early Target Distribution](https://github.com/g-nitin/OnTheBooksUofSC/tree/main/images/oversampling_ex.png) -->
+<!-- ![Early Target Distribution](../images/oversampling_ex.png?raw=true "Early Target Distribution") -->
+![Early Target Distribution](../images/oversampling_ex.png)
 
 To resolve this issue, [SMOTE](https://www.jair.org/index.php/jair/article/view/10302) oversampling techniques were used to achieve better results.
 

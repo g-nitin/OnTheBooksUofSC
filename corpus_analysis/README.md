@@ -10,4 +10,4 @@ The corpus analysis phase explores the underlying characteristics behind laws fr
 
     `LDA.ipynb` uses an unsupervised method, Latent Dirichlet Allocation (LDA), to build a topic model for the laws.
     <br>A visualizaiton of an initial LDA model is show below,
-    <img src="../images/LDAvis.gif" width="50%" height="50%">
+    <br><img src="../images/LDAvis.gif" width="50%" height="50%">

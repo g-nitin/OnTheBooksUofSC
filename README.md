@@ -8,3 +8,6 @@ The project consisted of several phases:
 - Corpus Analysis
 
 More information about these phases can be found in the specific README.md files within those folders.
+
+## Static Views
+Since Github might not display IPython notebooks nicely, atleast as of writing this README, a better and static view for this repository and its files (especially the IPython ones) can be found on [nbviewer's link](https://nbviewer.org/github/g-nitin/OnTheBooksUofSC/tree/main/) for this repository. Nbviewer does not host notebooks, it only renders notebooks available on other websites.

@@ -16,8 +16,18 @@ The corpus analysis phase explores the underlying characteristics behind laws fr
     - If no topic is chosen, then the blue bars show the most frequent words.
     - In the graph on the left, the distance between the bubbles indicates the uniqueness. For example, the closer the bubbles are to each other, the more similar they are.
 
-<b>Hands On: </b> You can try the latest version of this visualization (which is the `LDA_vis.html` file in this directory) by clicking [this](https://htmlpreview.github.io/?https://github.com/g-nitin/OnTheBooksUofSC/blob/main/corpus_analysis/LDA_vis.html).
+    <br>
+    
+    <b>Hands On: </b> You can try the latest version of this visualization (which is the `LDA_vis.html` file in this directory) by clicking [this](https://htmlpreview.github.io/?https://github.com/g-nitin/OnTheBooksUofSC/blob/main/corpus_analysis/LDA_vis.html).
+    
+    This link takes you to the htmlpreview.github.io host for the visualization HTML file.
+    
+    About `htmlpreview` (from their GitHub): _Many GitHub repositories don't use GitHub Pages to host their HTML files. GitHub & BitBucket HTML Preview allows you to render those files without cloning or downloading whole repositories. It is a client-side solution using a CORS proxy to fetch assets.
 
-This link takes you to the htmlpreview.github.io host for the visualization HTML file.
+- LDA Visualizations
 
-About `htmlpreview` (from their GitHub): _Many GitHub repositories don't use GitHub Pages to host their HTML files. GitHub & BitBucket HTML Preview allows you to render those files without cloning or downloading whole repositories. It is a client-side solution using a CORS proxy to fetch assets._
+  Using the outputs from the LDA model and predicted Jim Crow labels, some visualizations were made to explore the corpus in detail.
+
+  The code for these visualizations is described in the `LDA_visualizations.ipynb` and the final plots are stored in the `imgs` subdirectory.
+
+  Note that the `checkpoint` subdirectory stores all data, such lda models and cleaned sentences.

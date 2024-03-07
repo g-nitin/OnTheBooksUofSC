@@ -28,4 +28,7 @@ Some explanation for the interactive visualization:
 
   The code for these visualizations is described in the `LDA_visualizations.ipynb` and the final plots are stored in the `imgs` subdirectory.
 
-  Note that the `checkpoint` subdirectory stores all data, such lda models and cleaned sentences.
+  Notes:
+  - `LDA_best_hyperopt.py` is the file that was used to hypertune the parameters for the final LDA model.
+  - The `checkpoint` subdirectory stores all data, such lda models and cleaned sentences.
+  - The `stopwords` subdirectory contains the list of stopwords used for the model.

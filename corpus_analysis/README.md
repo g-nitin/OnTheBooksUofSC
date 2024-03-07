@@ -26,7 +26,7 @@ Some explanation for the interactive visualization:
 
   Using the outputs from the LDA model and predicted Jim Crow labels, some visualizations were made to explore the corpus in detail.
 
-  The code for these visualizations is described in the `LDA_visualizations.ipynb` and the final plots are stored in the `imgs` subdirectory.
+  The code and explanations for these visualizations is described in the `LDA_visualizations.ipynb` and the final plots are stored in the `imgs` subdirectory.
 
   Notes:
   - `LDA_best_hyperopt.py` is the file that was used to hypertune the parameters for the final LDA model.
